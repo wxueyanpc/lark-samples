@@ -71,8 +71,8 @@ public class Main {
                      * Build reply message
                      */
                     String replyContent = new MessageText.Builder()
-                            .textLine("收到你发送的消息: " + respContent.get("text"))
-                            .textLine("Received message: " + respContent.get("text"))
+                            .textLine("欢迎")
+                            .textLine("Welcome, this is the group chat to share the lovely pics of your pets")
                             .build();
 
                     if (event.getEvent().getMessage().getChatType().equals("p2p")) {
