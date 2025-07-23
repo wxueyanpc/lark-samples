@@ -15,10 +15,8 @@ def do_p2_im_message_receive_v1(data: P2ImMessageReceiveV1) -> None:
 
     content = json.dumps(
         {
-            "text": "收到你发送的消息："
-            + res_content
-            + "\nReceived message:"
-            + res_content
+            "text": "欢迎"
+            + "\nThis is the group chat to share the lovely pics of your pets."
         }
     )
 
